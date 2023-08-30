@@ -23,7 +23,7 @@ pipeline {
         stage('Git Checkout') {
           steps {
             echo 'Cloning the application code...'
-            git branch: 'main', url: 'https://gitlab.com/anselmenumbisia/tf-pipeline-project.git'
+            git branch: 'master', url: 'https://gitlab.com/Nnekanma/nneka-pipeline-test.git'
           }
         }
         stage('format') {
